@@ -7,7 +7,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          },
         Key = {
         KeySystem = true,
-        Title = "MazTew Hub",
+        Title = "MazTew Hub", "Admin",
         Description = "",
         KeyLink = "https://anotepad.com/note/read/dnyfaksq",
         Keys = {"Key-971827628726282761818708729773"},
@@ -67,6 +67,38 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 -----Settings
      Toggle = AddToggle(Tab2o, {
       Name = "Anti Lag",
+      Default = true,
+      Callback = function()
+     end
+    })
+    
+
+     Toggle = AddToggle(Tab2o, {
+      Name = "Anti Afk",
+      Default = true,
+      Callback = function()
+     end
+    })
+    
+
+     Toggle = AddToggle(Tab2o, {
+      Name = "Bing Mods",
+      Default = true,
+      Callback = function()
+     end
+    })
+    
+
+     Toggle = AddToggle(Tab2o, {
+      Name = "Bypass Tp",
+      Default = true,
+      Callback = function()
+     end
+    })
+    
+
+     Toggle = AddToggle(Tab2o, {
+      Name = "Lock Bing Mods",
       Default = true,
       Callback = function()
      end
