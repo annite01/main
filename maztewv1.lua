@@ -7,10 +7,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          },
         Key = {
         KeySystem = true,
-        Title = "MazTew Hub", "Admin",
+        Title = "MazTew Hub",
         Description = "",
         KeyLink = "https://anotepad.com/note/read/dnyfaksq",
-        Keys = {"Key-971827628726282761818708729773"},
+        Keys = {"ATKS-iyjsb-nayt", "Admin"},
         Notifi = {
         Notifications = false,
         CorrectKey = "Running the Script...",
