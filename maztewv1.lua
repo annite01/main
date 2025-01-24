@@ -104,3 +104,21 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      end
     })
     
+
+-----Stats
+
+Dropdown = AddDropdown(Tab3o, {
+     Name = "Select",
+     Options = {"Mele", "Sword", "Gun", "Blox Fruits"},
+     Default = "...",
+     Callback = function()
+     end
+   })
+   
+
+Toggle = AddToggle(Tab3o, {
+      Name = "Aotu Stats",
+      Default = false,
+      Callback = function()
+     end
+    })
