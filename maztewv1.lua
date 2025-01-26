@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "MazTew Hub - Blox Fruits v1",
+         Title = "MazTew Hub - Blox Fruits v1 | by Maz",
          Animation = "MazTew Hub"
          },
         Key = {
@@ -43,6 +43,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
    })
 -------TOGGLE 
 
+    AddButton(Tab1o, {
+     Name = "Stop Tween",
+    Callback = function()
+  end
+  })
+
+Section = AddSection(Tab1o, {"Farm Level"})      
      Toggle = AddToggle(Tab1o, {
       Name = "Farm Leve",
       Default = false,
@@ -59,6 +66,7 @@ Toggle = AddToggle(Tab1o, {
     })
     
 
+Section = AddSection(Tab1o, {"Mods"})      
 Toggle = AddToggle(Tab1o, {
       Name = "Mod Aura",
       Default = false,
