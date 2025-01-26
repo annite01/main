@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "MazTew Hub",
         Description = "",
         KeyLink = "https://anotepad.com/note/read/dnyfaksq",
-        Keys = {"ATKS-iyjsb-nayt", "Admin"},
+        Keys = {"MazTew-971KH-1963K-HUB", "Admin"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -67,6 +67,23 @@ Toggle = AddToggle(Tab1o, {
     })
     
 
+    Section = AddSection(Tab1o, {"FPS"})      
+    AddButton(Tab1o, {
+     Name = "Boat FPS",
+    Callback = function()
+  end
+  })
+
+Section = AddSection(Tab1o, {"Farm Mastery"})      
+Dropdown = AddDropdown(Tab1o, {
+     Name = "Select",
+     Options = {"20", "25", "30", "35", "40", "45", "50"},
+     Default = "20",
+     Callback = function()
+     end
+   })
+   
+
 Toggle = AddToggle(Tab1o, {
       Name = "Farm Mastery Fruits",
       Default = false,
@@ -83,6 +100,7 @@ Toggle = AddToggle(Tab1o, {
     })
     
 
+Section = AddSection(Tab1o, {"Bone🦴"})      
      Toggle = AddToggle(Tab1o, {
       Name = "Farm Bone",
       Default = false,
@@ -92,8 +110,25 @@ Toggle = AddToggle(Tab1o, {
     
 
      Toggle = AddToggle(Tab1o, {
+      Name = "Random Bone",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+
+Section = AddSection(Tab1o, {"Cake"})      
+     Toggle = AddToggle(Tab1o, {
       Name = "Farm Cake",
       Default = false,
+      Callback = function()
+     end
+    })
+    
+
+     Toggle = AddToggle(Tab1o, {
+      Name = "Aotu Spam Cake",
+      Default = true,
       Callback = function()
      end
     })
@@ -126,7 +161,7 @@ Toggle = AddToggle(Tab1o, {
 
      Toggle = AddToggle(Tab2o, {
       Name = "Bypass Tp",
-      Default = true,
+      Default = false,
       Callback = function()
      end
     })
@@ -134,7 +169,7 @@ Toggle = AddToggle(Tab1o, {
 
      Toggle = AddToggle(Tab2o, {
       Name = "Lock Bing Mods",
-      Default = true,
+      Default = false,
       Callback = function()
      end
     })
@@ -153,6 +188,25 @@ Dropdown = AddDropdown(Tab3o, {
 
 Toggle = AddToggle(Tab3o, {
       Name = "Aotu Stats",
+      Default = false,
+      Callback = function()
+     end
+    })
+-----Tele
+    Section = AddSection(Tab4o, {"Soon..."})      
+-----Raid
+    Section = AddSection(Tab5o, {"Raid"})      
+    Dropdown = AddDropdown(Tab5o, {
+     Name = "Select",
+     Options = {"Flame", "Ice", "Dark", "Rumbie", "Magma", "Light", "Sand", "Buddha", "Phoenix", "Dough"},
+     Default = "...",
+     Callback = function()
+     end
+   })
+   
+
+Toggle = AddToggle(Tab5o, {
+      Name = "Aotu Raid",
       Default = false,
       Callback = function()
      end
