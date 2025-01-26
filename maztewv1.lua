@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "MazTew Hub - Blox Fruits v1",
-         Animation = "Menu"
+         Animation = "MazTew Hub"
          },
         Key = {
         KeySystem = true,
@@ -12,7 +12,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeyLink = "https://anotepad.com/note/read/dnyfaksq",
         Keys = {"ATKS-iyjsb-nayt", "Admin"},
         Notifi = {
-        Notifications = false,
+        Notifications = true,
         CorrectKey = "Running the Script...",
        Incorrectkey = "The key is incorrect",
        CopyKeyLink = "Copied to Clipboard"
@@ -27,6 +27,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab4o = MakeTab({Name = "Tele"})
      local Tab5o = MakeTab({Name = "Raid"})
      local Tab6o = MakeTab({Name = "Shop"})
+     local Tab7o = MakeTab({Name = "Race V4"})
+     local Tab8o = MakeTab({Name = "Sea Even"})
+     local Tab9o = MakeTab({Name = "Misc"})
      
      
 ----- Dropdown 
@@ -42,6 +45,38 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
      Toggle = AddToggle(Tab1o, {
       Name = "Farm Leve",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+
+Toggle = AddToggle(Tab1o, {
+      Name = "KaiTun[Bugs]",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+
+Toggle = AddToggle(Tab1o, {
+      Name = "Mod Aura",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+
+Toggle = AddToggle(Tab1o, {
+      Name = "Farm Mastery Fruits",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+
+Toggle = AddToggle(Tab1o, {
+      Name = "Farm Mastery Gun",
       Default = false,
       Callback = function()
      end
