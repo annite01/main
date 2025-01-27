@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "MazTew Hub - Blox Fruits v1 | by Maz",
+         Title = "MazTew Hub - Blox Fruits v1.1 | by Maz",
          Animation = "MazTew Hub"
          },
         Key = {
@@ -20,6 +20,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     }
   })
 
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=16513855098",
+       Size = {41, 40},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = false,
+       Stroke = true,
+       StrokeColor = Color3.fromRGB(255, 10, 10)
+      })
+      
 ------ Tab
      local Tab1o = MakeTab({Name = "Main"})
      local Tab2o = MakeTab({Name = "Settings"})
@@ -48,6 +57,22 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     Callback = function()
   end
   })
+
+  Dropdown = AddDropdown(Tab1o, {
+     Name = "Select Speed Tween",
+     Options = {"150", "160", "170", "180"},
+     Default = "150",
+     Callback = function()
+     end
+   })
+
+Toggle = AddToggle(Tab1o, {
+      Name = "Quets Bone and Cake",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
 
 Section = AddSection(Tab1o, {"Farm Level"})      
      Toggle = AddToggle(Tab1o, {
@@ -219,3 +244,137 @@ Toggle = AddToggle(Tab5o, {
       Callback = function()
      end
     })
+
+-----Shop
+    Section = AddSection(Tab6o, {"Haki"})      
+    AddButton(Tab6o, {
+     Name = "Geppo",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Buso Haki",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Soru",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Ken Haki",
+    Callback = function()
+  end
+  })
+    Section = AddSection(Tab6o, {"Mele"})      
+    AddButton(Tab6o, {
+     Name = "Black Leg",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Electro",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Fishman Karate",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Dragon Claw",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "SuperHuman",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Death Step",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Skarkman Karate",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Electric Claw",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Dragon Talon",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Godhuman",
+    Callback = function()
+  end
+  })
+    Section = AddSection(Tab6o, {"Items"})      
+    AddButton(Tab6o, {
+     Name = "Refund Stats",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab6o, {
+     Name = "Reroll Race",
+    Callback = function()
+  end
+  })
+-----Race
+    Section = AddSection(Tab7o, {"Soon..."})      
+-----Sea
+
+-----Misc
+    Section = AddSection(Tab9o, {"Rejoin"})      
+    AddButton(Tab9o, {
+     Name = "Rejoin Server",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab9o, {
+     Name = "Hop Server",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab9o, {
+     Name = "Hop Server Low Player",
+    Callback = function()
+  end
+  })
+
+   Section = AddSection(Tab9o, {"Open Ui"})      
+    AddButton(Tab9o, {
+     Name = "Shop Fruits",
+    Callback = function()
+  end
+  })
+
+    AddButton(Tab9o, {
+     Name = "Tetle Name",
+    Callback = function()
+  end
+  })
