@@ -2,20 +2,20 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "MazTew Hub - Blox Fruits v1.1 | by Maz",
+         Title = "MazTew Hub - Blox Fruits Beta | by Maz",
          Animation = "MazTew Hub"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "MazTew Hub",
         Description = "",
         KeyLink = "https://anotepad.com/note/read/dnyfaksq",
         Keys = {"MazTew-971KH-1963K-HUB", "Admin"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
+        CorrectKey = "Run Script...",
        Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
+       CopyKeyLink = "Copy Link GetKey"
       }
     }
   })
@@ -226,7 +226,15 @@ Toggle = AddToggle(Tab3o, {
      end
     })
 -----Tele
-    Section = AddSection(Tab4o, {"Soon..."})      
+    Section = AddSection(Tab4o, {"Sea 1"})      
+    Dropdown = AddDropdown(Tab4o, {
+     Name = "Select",
+     Options = {"WindMill", "Marine", "Middle Town", "Jungle", "Pirate Village", "Desert", "Snow Island", "MarineFord", "Colosseum", "Sky Island 1", "Sky Island 2", "Sky Island 3", "Prison", "Magma Village", "Under Water Island", "Fountain City", "Shank Room", "Mob Island"},
+     Default = "...",
+     Callback = function()
+     end
+   })
+   
 -----Raid
     Section = AddSection(Tab5o, {"Raid"})      
     Dropdown = AddDropdown(Tab5o, {
@@ -239,12 +247,32 @@ Toggle = AddToggle(Tab3o, {
    
 
 Toggle = AddToggle(Tab5o, {
-      Name = "Aotu Raid",
+      Name = "Buy Chip",
       Default = false,
       Callback = function()
      end
     })
 
+Toggle = AddToggle(Tab5o, {
+      Name = "Stats Raid",
+      Default = false,
+      Callback = function()
+     end
+    })
+
+Toggle = AddToggle(Tab5o, {
+      Name = "Next Island",
+      Default = false,
+      Callback = function()
+     end
+    })
+
+Toggle = AddToggle(Tab5o, {
+      Name = "Attach Mods",
+      Default = false,
+      Callback = function()
+     end
+    })
 -----Shop
     Section = AddSection(Tab6o, {"Haki"})      
     AddButton(Tab6o, {
